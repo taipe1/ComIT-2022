@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 100%;
+    max-width: 36px;
+    height: auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 27%;
+    border: 1px solid rgb(0, 0, 0);
+}
+header{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+h3{
+    color: rgb(255, 255, 255);
+    line-height:55px;
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+main{
+    margin-top: 5px;
+}
+form input{
+    padding: 10px;
+    border-radius: 7px;
+    margin: 5px 0;
+    width: 70%;
+}
+article{
+    margin-top: 9px;
+}
+article input{
+    width: 34%;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+article input:hover{
+    background-color: rgb(99, 177, 185);
+}
+.color1{
+    background-color: rgb(213, 223, 223);
+}
+.color{
+    background-color: rgb(5, 70, 34);
+    color: white;
+}
+footer{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer a{
+    margin: 15px 0;
+    border: none;
+    /* width: 0%; */
+    /* justify-content: space-betwee; */
+}
+
+@media (min-width: 462px) and (max-width: 1000px) {
+    .container{
+        width: 60%;
+    }
+  }
+
+@media (min-width: 357px) and (max-width: 460px) {
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 356px) {
+    .container{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

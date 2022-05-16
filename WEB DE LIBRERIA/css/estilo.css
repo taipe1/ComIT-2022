@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://sites.google.com/site/hidraulicageneralingcivil/_/rsrc/1436125818492/biblioteca/biblioteca_header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+}
+header h1{
+    color: rgb(255, 255, 255);
+}
+body{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 0;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px 0;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: rgb(240, 255, 241);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+
+section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3px;
+}
+.caja{
+    border:1px solid black;
+}
+.container{
+    margin: 5px 0;
+}
+img{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+}
+button{
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(229, 248, 230);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 6px;
+    background-color: rgb(138, 150, 142);
+    padding: 10px;
+}
+.text_footer{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
