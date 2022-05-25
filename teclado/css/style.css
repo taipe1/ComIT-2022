@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(145, 145, 145);
+    width: 30%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+#pantalla {
+    width: 100%;
+    padding: 7px 2px;
+    margin: 4px;
+}
+
+input{
+    padding:8px 12px;
+}
+
