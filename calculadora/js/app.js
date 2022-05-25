@@ -1,28 +1,23 @@
 
 let pantalla = document.getElementById('pantalla');
-let arreglo = [];
+let cadena = "";
 
 function mostrar(num){
     pantalla.value += num;
-    arreglo.push(num);
-    
+    cadena = cadena + String(num);
 }
 
 function signo(sig){
-    arreglo.push(sig);
+    cadena = cadena + String(sig);
     pantalla.value = "";
 }
 
 function igual(){
     pantalla.value = "";
-    let cade = '';
-    for(let aux of arreglo){
-        cade = cade + aux;
-    }
-    pantalla.value = eval(cade);
+    pantalla.value = eval(cadena);
 }
 
 function limpiar(){
     pantalla.value = "";
-    arreglo = [];
+    cadena = "";
 }
