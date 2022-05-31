@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    padding: 60px;
+
+    background-color: rgb(162, 162, 162);;
+}
+.cambiarYellow{
+    background-color: yellow;
+}
+.cambiarRojo{
+    background-color: red;
+}
+.cambiarVerde{
+    background-color: green;
+}
+
+.cambiarAzul{
+    background-color: blue;
+}
+.cambiarNegro{
+    background-color: rgb(27, 27, 27);
+}
+
+input[type=button]{
+    padding: 6px 20px;
+}
