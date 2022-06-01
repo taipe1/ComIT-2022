@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(20, 0, 87);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -15,12 +15,14 @@ body{
 }
 img{
     width: 99px;
+    border: 1px solid black;
 }
 .container{
-    width: 30%;
+    width: 34%;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
+    background-color: rgb(20, 0, 87);
 }
 label,
 span{
